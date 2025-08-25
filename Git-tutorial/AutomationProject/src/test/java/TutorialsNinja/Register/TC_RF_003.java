@@ -37,6 +37,8 @@ public class TC_RF_003 {
         String editMsg="Edit your account information";
         String displayed=driver.findElement(By.cssSelector("[href*='account/edit']")).getText();
         Assert.assertTrue(editMsg.equalsIgnoreCase(displayed));
+
+        //Testing this feature
     }
 
 }
